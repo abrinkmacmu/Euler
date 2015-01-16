@@ -1,19 +1,21 @@
 #include <iostream>
+#include <primesieve.hpp>
 #include <ctime>
+#include <cmath>
 using namespace std;
 
-int main()
-{
+int main(){
  int start_s = clock();
- long long suma=0, sumb=0;
+ uint64_t suma=0;
+ uint64_t sumb=0;
+ 
  for(int a=0; a<=100;a++){
     suma=suma+a*a;
-    for(int b=0; b<=100; b++){
-        sumb=sumb+b;
+    sumb=sumb+a;
 	}
- }
-
- cout<<((sumb*sumb)-suma)<<endl;
+ 
+ uint64_t total = (sumb*sumb)-suma;
+ cout<<total<<endl;
  cout << "Code executed in " << (clock()-start_s)/double(CLOCKS_PER_SEC)*1000 <<" millisec" <<endl;
  return 0;
 }

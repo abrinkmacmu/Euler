@@ -3,10 +3,14 @@ euler1 - brute force
 euler2 - brute force
 euler3 - using primesieve and limiting search to sqrt(n)
 euler4 - brute force
+euler5 - manual solution
+euler6 - brute force
 euler7 - using primesieve library
+euler8 - check all cases (overwrote src)
+euler9 - brute force
+euler10 - used primesieve, quick
+euler11 - only 1 way to solve, check all cases
+euler12 - took incrediably long (4568 sec) but worked
 
-in progress:
+euler15 - realizing problem is "40 choose 20." no code
 
-5 - not attempted
-6 - incorrect
-10 - incorrect and takes 1251 sec to run!
